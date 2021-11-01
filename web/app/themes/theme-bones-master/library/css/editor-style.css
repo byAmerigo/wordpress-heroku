@@ -609,7 +609,7 @@ probably best not to use it. I mean, were you going to anyway? */
     max-width: 100%;
     height: auto; }
   body#tinymce.wp-editor pre {
-    background: #323944;
+    background: #0033A1;
     color: #f8f9fa;
     font-size: 0.9em;
     padding: 1.5em;
