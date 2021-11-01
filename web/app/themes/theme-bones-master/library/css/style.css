@@ -2116,3 +2116,16 @@ be set to display none.
   .respond-form,
   nav {
     display: none; } }
+
+
+
+
+/* ADDED STYLE */
+
+* {
+  background-color:  purple !important;
+}
+
+a {
+  color: green !important;
+}
