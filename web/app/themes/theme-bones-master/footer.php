@@ -5,7 +5,7 @@
 							src="<?php echo get_template_directory_uri(); 
 							?>/library/images/timLogo.svg" 
 							alt="Tim Logo" 
-							style="width:100px; height:24px margin:right 12px"
+							style="width:100px; height:24px; margin-right: 12px;"
 						/>
 						<img 
 							src="<?php echo get_template_directory_uri(); 
