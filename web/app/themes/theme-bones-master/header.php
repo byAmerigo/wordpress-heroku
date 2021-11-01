@@ -49,69 +49,30 @@
 		<div id="container">
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-				<div id="inner-header" class="wrap cf">
-
-					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="d-flex justify-content-between">
-						<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-						<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-						<?php // if you'd like to use the site description you can un-comment it below ?>
-						<?php // bloginfo('description'); ?>
-						<div>
-							<?php 
-							wp_nav_menu(array(
-								'container' => false,                           // remove nav container
-								'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-								'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-								'menu_class' => 'nav top-nav cf',               // adding custom nav class
-								'theme_location' => 'main-nav',                 // where it's located in the theme
-								'before' => '',                                 // before the menu
-								'after' => '',                                  // after the menu
-								'link_before' => '',                            // before each link
-								'link_after' => '',                             // after each link
-								'depth' => 0,                                   // limit the depth of the nav
-								'fallback_cb' => ''                             // fallback function (if there is one)
-							)); 
-							?>
-						</div>
-						<div>
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/grid-menu.svg" alt="Grid Menu" />
-						</div>
-					</nav>
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-						<a class="navbar-brand" href="#">Navbar</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto">
-								<li class="nav-item active">
-									<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Link</a>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Dropdown
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Action</a>
-										<a class="dropdown-item" href="#">Another action</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">Something else here</a>
-									</div>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link disabled" href="#">Disabled</a>
-								</li>
-							</ul>
-							<form class="form-inline my-2 my-lg-0">
-								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-								<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-							</form>
-						</div>
-					</nav>
-				</div>
-
+				<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement" class="d-flex justify-content-between align-items-center oli-header">
+					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+					<p style="font-size:30px" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<?php // if you'd like to use the site description you can un-comment it below ?>
+					<?php // bloginfo('description'); ?>
+					<div>
+						<?php 
+						wp_nav_menu(array(
+							'container' => false,                           // remove nav container
+							'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+							'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+							'menu_class' => 'nav top-nav cf',               // adding custom nav class
+							'theme_location' => 'main-nav',                 // where it's located in the theme
+							'before' => '',                                 // before the menu
+							'after' => '',                                  // after the menu
+							'link_before' => '',                            // before each link
+							'link_after' => '',                             // after each link
+							'depth' => 0,                                   // limit the depth of the nav
+							'fallback_cb' => ''                             // fallback function (if there is one)
+						)); 
+						?>
+					</div>
+					<div>
+						<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
+					</div>
+				</nav>
 			</header>
