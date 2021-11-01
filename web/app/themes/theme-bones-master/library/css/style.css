@@ -2449,6 +2449,10 @@ be set to display none.
 	}
 }
 
-.oli-footer-copyright-colour{
-	color: #3F51B5;
+.oli-footer-copyright-colour {
+	color: #3f51b5;
+}
+
+.oli-header {
+	height: 66px;
 }
