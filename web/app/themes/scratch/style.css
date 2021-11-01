@@ -9051,3 +9051,8 @@ display:block;
 }
 /* mobile view end */
 
+/*override css*/
+.navbar-header
+{
+  background-color: #0033A1;
+}
