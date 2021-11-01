@@ -75,7 +75,7 @@
 							?>
 						</div>
 						<div>
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/grid-menu.svg" alt="Grid Menu" />
+							<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
 						</div>
 					</nav>
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">

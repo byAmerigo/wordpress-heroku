@@ -1550,7 +1550,7 @@ h5,
 HEADER STYLES
 *********************/
 .header {
-	background-color: #323944;
+	background-color: #0033a1;
 }
 
 #logo {
@@ -1725,7 +1725,7 @@ POSTS & CONTENT STYLES
 	height: auto;
 }
 .entry-content pre {
-	background: #323944;
+	background: #0033a1;
 	color: #f8f9fa;
 	font-size: 0.9em;
 	padding: 1.5em;
@@ -2007,7 +2007,7 @@ FOOTER STYLES
 *********************/
 .footer {
 	clear: both;
-	background-color: #323944;
+	background-color: #0033a1;
 	color: #f8f9fa;
 }
 
@@ -2155,7 +2155,7 @@ you can add resource intensive styles.
 		/* end current highlighters */
 	}
 	.nav ul {
-		background: #323944;
+		background: #0033a1;
 		margin-top: 0;
 	}
 	.nav li {
