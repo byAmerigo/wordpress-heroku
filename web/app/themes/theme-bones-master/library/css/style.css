@@ -1506,6 +1506,8 @@ a:visited:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
+p,
+.p,
 h1,
 .h1,
 h2,
@@ -1518,23 +1520,12 @@ h5,
 .h5 {
 	text-rendering: optimizelegibility;
 	font-weight: 500;
+	margin: 0 !important;
 	/*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
   */
 	/* removing text decoration from all headline links */
-}
-h1 a,
-.h1 a,
-h2 a,
-.h2 a,
-h3 a,
-.h3 a,
-h4 a,
-.h4 a,
-h5 a,
-.h5 a {
-	text-decoration: none;
 }
 
 h1,
