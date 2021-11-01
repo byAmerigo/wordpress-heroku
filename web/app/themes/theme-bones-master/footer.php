@@ -1,6 +1,7 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 
-				
+			<img href="<?php echo get_template_directory_uri(); ?>/library/images/timLogo.svg" alt="Tim Logo">
+		
 
 			</footer>
 
