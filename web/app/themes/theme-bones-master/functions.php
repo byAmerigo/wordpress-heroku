@@ -244,20 +244,4 @@ function bones_fonts() {
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
-function themebs_enqueue_styles() {
-
-  wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/library/css/bootstrap.min.css' );
-
-}
-
-add_action( 'wp_enqueue_scripts', 'themebs_enqueue_styles');
-
-function themebs_enqueue_scripts() {
-  wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . 'library/js/libs/bootstrap.min.css' );
-  wp_enqueue_script( 'jquery-js', get_template_directory_uri() . 'library/js/libs/jquery.min.css' );
-  wp_enqueue_script( 'popper-js', get_template_directory_uri() . 'library/js/libs/popper.min.css' );
-}
-
-add_action( 'wp_enqueue_scripts', 'themebs_enqueue_scripts');
-
 /* DON'T DELETE THIS CLOSING TAG */ ?>
