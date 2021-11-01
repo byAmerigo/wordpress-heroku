@@ -2449,8 +2449,8 @@ be set to display none.
 	}
 }
 
-.oli-footer{
-	background-color: #FFFFFF;
+.oli-footer {
+	background-color: #ffffff;
 	height: 168px;
 }
 
@@ -2460,4 +2460,6 @@ be set to display none.
 
 .oli-header {
 	height: 66px;
+	padding-left: 27px;
+	padding-right: 27px;
 }
