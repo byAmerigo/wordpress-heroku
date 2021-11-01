@@ -2451,11 +2451,13 @@ be set to display none.
 
 .oli-footer{
 	background-color: #FFFFFF;
-	height: 168px;
+	align-items: center;
+	padding: 20px 50px;
 }
 
 .oli-footer-copyright-colour {
 	color: #3f51b5;
+	font-size: 13px;
 }
 
 .oli-header {
