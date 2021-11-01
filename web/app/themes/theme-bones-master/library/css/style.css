@@ -2448,3 +2448,7 @@ be set to display none.
 		display: none;
 	}
 }
+
+.oli-footer-copyright-colour{
+	color: #3F51B5;
+}
