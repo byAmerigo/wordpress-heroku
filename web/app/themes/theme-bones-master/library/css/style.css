@@ -2466,7 +2466,10 @@ be set to display none.
 .oli-footer{
 	background-color: #ffffff;
 	align-items: center;
-	padding: 20px 50px;
+	padding: 15px 45px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
 }
 
 .oli-footer-copyright-colour {
