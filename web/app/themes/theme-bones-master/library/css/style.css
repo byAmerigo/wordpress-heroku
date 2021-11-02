@@ -2467,8 +2467,6 @@ be set to display none.
 	align-items: center;
 	padding: 15px 45px;
 	width: 100%;
-	position: fixed;
-	bottom: 0px;
 }
 
 .oli-footer-copyright-colour {
