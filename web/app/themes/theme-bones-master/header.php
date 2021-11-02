@@ -60,28 +60,24 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
 						<?php endif; ?>
 					</div>
-
-					<?php if($_SERVER['REQUEST_URI'] === "home") : ?>
+					<?php if($_SERVER['REQUEST_URI'] === "/"+ "?page_id=17") : ?>
     					<p>Ti trovi in home</p>
 					<?php else : ?>
 						<p>Non sei in home</p>
 					<?php endif; ?>
 				</nav>
 			</header>
+<?php
 
-			<?php
+	function debug_to_console($data) {
+		$output = $data;
+		if (is_array($output))
+			$output = implode(',', $output);
 
-function debug_to_console($data) {
-    $output = $data;
-    if (is_array($output))
-        $output = implode(',', $output);
+		echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+	}
 
-    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
-}
-
-debug_to_console($_SERVER['REQUEST_URI']);
-debug_to_console("prova");
-
-
+	debug_to_console($_SERVER['REQUEST_URI']);
+	debug_to_console("prova");
 
 ?>
