@@ -2478,7 +2478,3 @@ be set to display none.
 	padding-left: 27px;
 	padding-right: 27px;
 }
-
-.dropdown-toggle:after {
-	border-color: transparent !important;
-}
