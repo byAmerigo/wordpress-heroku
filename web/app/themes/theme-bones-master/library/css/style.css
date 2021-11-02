@@ -337,7 +337,6 @@ button,
 input,
 select,
 textarea {
-	font-family: inherit;
 	/* 1 */
 	font-size: 100%;
 	/* 2 */

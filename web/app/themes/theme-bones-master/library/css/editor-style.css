@@ -458,7 +458,6 @@ probably best not to use it. I mean, were you going to anyway? */
     padding: 0;
     /* 2 */ }
   body#tinymce.wp-editor button, body#tinymce.wp-editor input, body#tinymce.wp-editor select, body#tinymce.wp-editor textarea {
-    font-family: inherit;
     /* 1 */
     font-size: 100%;
     /* 2 */
