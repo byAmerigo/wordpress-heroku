@@ -53,7 +53,7 @@
 					</p>
 					<?php if(true) : ?>
             <div class="dropdown">
-              <div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div style="width:200px" class="dropdown-toggle d-flex justify-content-end" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
               </div>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
