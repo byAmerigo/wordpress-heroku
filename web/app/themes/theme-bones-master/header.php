@@ -54,7 +54,7 @@
 					<p style="font-size:30px; color: #fff" itemscope itemtype="http://schema.org/Organization">
 					 	<?php bloginfo('name'); ?>
 					</p>
-					<?php if(false) : ?>
+					<?php if($_SERVER['REQUEST_URI'] == "/?page_id=17") : ?>
             <div>
               <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
             </div>
