@@ -2479,6 +2479,6 @@ be set to display none.
 	padding-right: 27px;
 }
 
-.dropdown-toggle :after {
+.dropdown-toggle:after {
 	border-color: transparent !important;
 }
