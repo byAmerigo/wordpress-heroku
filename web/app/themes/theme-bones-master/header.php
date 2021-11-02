@@ -54,16 +54,18 @@
 					<p style="font-size:30px; color: #fff" itemscope itemtype="http://schema.org/Organization">
 					 	<?php bloginfo('name'); ?>
 					</p>
-					<div>
-						<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
-						<?php if (true) : ?>
-							<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
-						<?php endif; ?>
-					</div>
-					<?php if($_SERVER['REQUEST_URI'] == "/?page_id=17") : ?>
-    					<p>Ti trovi in home</p>
-					<?php else : ?>
-						<p>Non sei in home</p>
+					<?php if(false) : ?>
+            <div>
+              <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
+            </div>
+          <?php else : ?>
+						<div>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/facebookIcon.svg" alt="Grid Menu" />
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/twitterIcon.svg" alt="Grid Menu" />
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/linkedinIcon.svg" alt="Grid Menu" />
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/instagramIcon.svg" alt="Grid Menu" />
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/youtubeIcon.svg" alt="Grid Menu" />
+            </div>
 					<?php endif; ?>
 				</nav>
 			</header>
