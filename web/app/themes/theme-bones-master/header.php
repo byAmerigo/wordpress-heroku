@@ -54,7 +54,7 @@
 					<p style="font-size:30px; color: #fff" itemscope itemtype="http://schema.org/Organization">
 					 	<?php bloginfo('name'); ?>
 					</p>
-					<?php if($_SERVER['REQUEST_URI'] == "/?page_id=17") : ?>
+					<?php if(true) : ?>
             <div class="dropdown show">
               <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
