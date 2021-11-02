@@ -57,9 +57,9 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
               </div>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Section One</a>
+                <a class="dropdown-item" href="#">Section Two</a>
               </div>
             </div>
           <?php else : ?>
