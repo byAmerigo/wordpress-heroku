@@ -60,7 +60,7 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
 						<?php endif; ?>
 					</div>
-					<?php if($_SERVER['REQUEST_URI'] === "/"+ "?page_id=17") : ?>
+					<?php if($_SERVER['REQUEST_URI'] == "/?page_id=17") : ?>
     					<p>Ti trovi in home</p>
 					<?php else : ?>
 						<p>Non sei in home</p>
@@ -78,6 +78,5 @@
 	}
 
 	debug_to_console($_SERVER['REQUEST_URI']);
-	debug_to_console("prova");
 
 ?>
