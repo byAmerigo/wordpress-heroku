@@ -60,5 +60,11 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
 						<?php endif; ?>
 					</div>
+
+					<?php if($_SERVER['REQUEST_URI'] === "home") : ?>
+    					<p>Ti trovi in home</p>
+					<?php else : ?>
+						<p>Non sei in home</p>
+					<?php endif; ?>
 				</nav>
 			</header>
