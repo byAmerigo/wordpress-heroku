@@ -51,20 +51,27 @@
 					<p style="font-size:30px; color: #fff" itemscope itemtype="http://schema.org/Organization">
 					 	<?php bloginfo('name'); ?>
 					</p>
-					<?php if($_SERVER['REQUEST_URI'] == "/?page_id=27") : ?>
-            <div class="dropdown">
-              <div style="width:200px" class="d-flex justify-content-end" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
-              </div>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Profile</a>
-                <a class="dropdown-item" href="#">Section One</a>
-                <a class="dropdown-item" href="#">Section Two</a>
-              </div>
-            </div>
-          <?php else : ?>
-			<div></div>
-					<?php endif; ?>
+					<?php $host = $_SERVER['SERVER_NAME'] .$_SERVER['REQUEST_URI'];
+						if($host == 'https://cms-ap00050-dev.bp.redev.technology/')
+							{
+								echo <div></div>;
+							}
+						else
+							{
+    						echo (
+									<div class="dropdown">
+									<div style="width:200px" class="d-flex justify-content-end" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
+									</div>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Profile</a>
+										<a class="dropdown-item" href="#">Section One</a>
+										<a class="dropdown-item" href="#">Section Two</a>
+									</div>
+								</div>
+								);
+							}
+					?>
 				</nav>
 			</header>
 <?php
