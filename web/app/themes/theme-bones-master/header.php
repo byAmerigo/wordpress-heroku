@@ -63,13 +63,7 @@
               </div>
             </div>
           <?php else : ?>
-						<div>
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/facebookIcon.svg" alt="Grid Menu" />
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/twitterIcon.svg" alt="Grid Menu" />
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/linkedinIcon.svg" alt="Grid Menu" />
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/instagramIcon.svg" alt="Grid Menu" />
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/youtubeIcon.svg" alt="Grid Menu" />
-            </div>
+			<div></div>
 					<?php endif; ?>
 				</nav>
 			</header>
