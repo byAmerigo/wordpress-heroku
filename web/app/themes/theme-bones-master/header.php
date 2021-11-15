@@ -53,11 +53,11 @@
 					</p>
 					<?php $host = $_SERVER['REQUEST_URI'];
 						if($host == 'https://cms-ap00050-dev.bp.redev.technology/')  { ?>
-							 <div>a1</div>;
+							 <div></div>;
             <?php } else { ?>
 									<div class="dropdown">
 									<div style="width:200px" class="d-flex justify-content-end" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										a2
+										<div></div>
                     <img src="<?php echo get_template_directory_uri(); ?>/library/images/gridMenu.svg" alt="Grid Menu" />
 									</div>
 									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
