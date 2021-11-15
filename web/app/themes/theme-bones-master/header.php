@@ -51,7 +51,7 @@
 					<p style="font-size:30px; color: #fff" itemscope itemtype="http://schema.org/Organization">
 					 	<?php bloginfo('name'); ?>
 					</p>
-					<?php $host = $_SERVER['SERVER_NAME'] .$_SERVER['REQUEST_URI'];
+					<?php $host = $_SERVER['REQUEST_URI'];
 						if($host == 'https://cms-ap00050-dev.bp.redev.technology/')
 							{
 								echo <div></div>;
